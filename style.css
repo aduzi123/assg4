@@ -197,4 +197,34 @@
     color: #fff;
     text-decoration: underline;
   }
+
+/* Animations and interactions */
+/* Apply a fade-in effect to the content class */
+.content {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Hover effect on the nav-bar links */
+  .nav-bar a {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-bar a:hover {
+    color: #ff4500; /* Change text color on hover */
+  }
+  
+  /* Bootstrap or Tailwind components can be added here */
+  
+  /* Additional styles... */
   
