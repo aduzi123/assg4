@@ -142,3 +142,59 @@
   
   /* Additional styles... */
   
+/* Padding and margin for divs */
+/* Add padding to the nav-bar class */
+.nav-bar {
+    padding: 15px;
+  }
+  
+  /* Add margin to the content class */
+  .content {
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  /* Add padding to the footer class */
+  .footer {
+    padding: 15px;
+  }
+  
+  /* Image filter for the content image */
+  .content img {
+    filter: grayscale(50%); /* Convert image to grayscale */
+  }
+  
+  /* Additional styles... */
+  
+  /* CSS Grid and Flexbox */
+  /* Apply CSS Grid to the body */
+  body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns layout */
+  }
+  
+  /* Apply Flexbox to the nav-bar class */
+  .nav-bar {
+    display: flex;
+    justify-content: space-between; /* Space evenly between child elements */
+  }
+  
+  /* Apply Flexbox to the footer class */
+  .footer {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+  }
+  
+  /* Additional styles for better visibility */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Style the links within the footer */
+  .footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
